@@ -107,11 +107,11 @@ def tipar_datos_bd(r: dict) -> dict:
 
         # 🔥 CORRECCIÓN REAL (usar nombres del Excel)
         if k == "JORNADA":
-            r[k] = str(v)[:4]
+            r[k] = str(v)
             continue
 
         if k == "ZONA_SEDE":
-            r[k] = str(v)[:4]
+            r[k] = str(v)
             continue
 
         if k == "TIPO_DE_SANGRE":

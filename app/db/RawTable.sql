@@ -1,10 +1,15 @@
 ALTER TABLE edc001001 ADD
 
+nrtelefono VARCHAR(10,0),
 idperid NUMERIC(10,0),
+ctedad NUMERIC(5),
+cdgradocod NUMERIC(2,0),
+cddane NUMERIC(12,0),
+dtano NUMERIC(4,0),
+vlsisbentres  DECIMAL(5,2),
 
 
 dtfechanacimiento DATE,
-ctedad NUMERIC(5),
 
 
 nmnombre1 VARCHAR(150) NOT NULL;
@@ -15,16 +20,13 @@ txbarrio VARCHAR(150);
 nmpaisorigen VARCHAR(65);
 idnumcontrato           NVARCHAR(100);
 
-iddocumento VARCHAR(15) NOT NULL,
+idnuip VARCHAR(15) NOT NULL,
 
 txeps VARCHAR(255),
 nmgrado VARCHAR(100),
 
-cdgradocod NUMERIC(2,0),
-
 nminstitucion VARCHAR(510),
 nmsede VARCHAR(255),
-cddane NUMERIC(12,0),
 
 cdcalendario CHAR(1),
 
@@ -34,9 +36,8 @@ dhfechafin DATETIME,
 fgsubsidio CHAR(1),
 fgcampesino CHAR(1),
 
-idnuip VARCHAR(32),
+cdnui VARCHAR(32),
 
-nmano NUMERIC(4,0),
 
 cdcodigojerarquia       NUMERIC(3,0),
 nmpaisnacionalidad2     VARCHAR(100),
@@ -45,7 +46,6 @@ fgestaactivosrpa        CHAR(2),
 fghaestadovinculadosrpa CHAR(2),
 cdrenombre              VARCHAR(10),
 cdsisben                VARCHAR(10),
-vlsisbentres            DECIMAL(5,2),
 txobservacion           VARCHAR(255),
 fgmatriculacontratada   VARCHAR(1),
 idconsecutivo           VARCHAR(20),

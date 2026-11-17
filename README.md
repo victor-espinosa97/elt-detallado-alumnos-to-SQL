@@ -1,3 +1,6 @@
+
+python3 -m pip install -r requirements.txt
+
 Ejectuar:
 ````
 uvicorn main:app --reload

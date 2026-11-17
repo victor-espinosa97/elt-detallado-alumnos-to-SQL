@@ -14,14 +14,14 @@ class EstudianteRepository:
 
         # columnas = list(data[0].keys())
         columnas = [
-            "idnuip","iddocumento","cdtipodoc","idperid","nmnombre1","nmnombre2",
+            "idnuip","cdnui","cdtipodoc","idperid","nmnombre1","nmnombre2",
             "nmapellido1","nmapellido2","txgenero","dtfechanacimiento","ctedad",
             "txbarrio","cdestrato","nmpaisorigen","txtipodesangre","txeps",
             "txdiscapacidad","cdestado","txmodelo","cdgradocod","cdgrupo",
             "cdjornada","nminstitucion","nmsede","cddane","cdsector","cdzonasede",
             "cdcalendario","dhfechaini","dhfechafin","fgsubsidio","fgcampesino",
             "txetnia","txtraespaprescolar","txapoyoacademicoespecial",
-            "txlistacapexcepcionales","cdsisbeniv","nmano","nmgrado",
+            "txlistacapexcepcionales","cdsisbeniv","dtano","nmgrado",
             "cdcodigojerarquia","txcategoriaaula","nmpaisnacionalidad2",
             "nmpaisnacimiento","fgestaactivosrpa","fghaestadovinculadosrpa",
             "cdrenombre","cdsisben","vlsisbentres","txobservacion","txcorreo",
